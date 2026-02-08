@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+.ipynb_checkpoints/
+dist/
+build/
+*.log
+ollama
+EOF

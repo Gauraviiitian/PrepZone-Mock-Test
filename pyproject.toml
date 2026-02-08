@@ -1,0 +1,29 @@
+[project]
+name = "rag-system"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+dependencies = [
+    # Core
+    "numpy",
+    "pandas",
+    "openpyxl",
+    # LLM / RAG
+    "langchain>=0.1.0",
+    "langchain-community",
+    "langchain-openai",
+    "openai",
+    # Embeddings / Vector DB
+    "sentence-transformers",
+    "faiss-cpu",            # or chromadb / qdrant-client
+    # Parsing / IO
+    "pypdf",
+    "tiktoken",
+    # Web / API
+    "fastapi",
+    "uvicorn",
+    "streamlit",
+    # Utilities
+    "python-dotenv",
+    "faiss-cpu==1.7.4",
+]
