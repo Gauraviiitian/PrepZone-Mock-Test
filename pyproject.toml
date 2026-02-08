@@ -25,5 +25,5 @@ dependencies = [
     "streamlit",
     # Utilities
     "python-dotenv",
-    "faiss-cpu==1.7.4",
+    "faiss-cpu>=1.7.4.post2",
 ]
